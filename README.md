@@ -12,7 +12,7 @@ A real-time multiplayer Tic-Tac-Toe game built with modern web technologies.
 - **Mongoose** - MongoDB object modeling
 
 ### Frontend
-- **React 18** - UI library
+- **React 19** - UI library
 - **Vite** - Build tool and dev server
 - **Tailwind CSS** - Utility-first CSS framework
 - **Socket.io Client** - WebSocket client
