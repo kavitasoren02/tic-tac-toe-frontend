@@ -75,49 +75,49 @@ tictactoe-multiplayer/
 ### Backend Setup
 
 1. Navigate to backend directory:
-   \`\`\`bash
+   ```bash
    cd backend
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Create `.env` file:
-   \`\`\`
+   ```
    MONGODB_URI=mongodb://localhost:27017/tictactoe
    PORT=3001
    FRONTEND_URL=http://localhost:5173
-   \`\`\`
+   ```
 
 4. Start the server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 ### Frontend Setup
 
 1. Navigate to frontend directory:
-   \`\`\`bash
+   ```bash
    cd frontend
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Create `.env` file:
-   \`\`\`
+   ```
    VITE_SOCKET_URL=http://localhost:3001
    VITE_API_URL=http://localhost:3001/api
-   \`\`\`
+   ```
 
 4. Start the dev server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 5. Open http://localhost:5173 in your browser
 
@@ -172,6 +172,5 @@ tictactoe-multiplayer/
 - User authentication
 - Elo rating system
 
-## License
 
 
