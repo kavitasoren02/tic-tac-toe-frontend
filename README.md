@@ -31,9 +31,8 @@ WebSocket connections via Socket.io enable instant game updates between players 
 - Players can browse and join from a list of available rooms
 - Rooms automatically manage player count and game state
 
-## Project Structure
-
-\`\`\`
+## 📁 Project Structure
+```
 tictactoe-multiplayer/
 ├── backend/
 │   ├── server.js              # Main Express server
@@ -63,7 +62,9 @@ tictactoe-multiplayer/
     ├── vite.config.js
     ├── package.json
     └── .env
-\`\`\`
+```
+
+---
 
 ## Setup Instructions
 
